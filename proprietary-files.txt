@@ -57,22 +57,20 @@ vendor/lib64/vendor.qti.hardware.alarm@1.0.so|dcfdc04b4e0c6e6a4ffa60e1694268bd03
 vendor/lib/hw/com.dsi.ant@1.0-impl.so|079573a7412736b6f2da827d16cdd12d34a4f6a6
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so|87dc1a131534659173e71e108e7a3ffe6325845f
 
-# Audio libraries
-vendor/lib/libacdb-fts.so
-vendor/lib/libacdbloader.so
-vendor/lib/libacdbrtac.so
-vendor/lib/libadiertac.so
-vendor/lib/libadm.so
-vendor/lib/libaudcal.so
-vendor/lib/libqtigef.so
-vendor/lib/soundfx/libasphere.so
-
-# Audio libraries - from UL-ASUS_X00T-WW-16.2017.2009.087-user
-vendor/lib/soundfx/libqcbassboost.so|9327128a592d24def9a6e323c9a85541a2052c1a
-vendor/lib/soundfx/libqcreverb.so|bf57090dbba900b6a3325513b4b6d4bdc6eaf2cd
-vendor/lib/soundfx/libqcvirt.so|050274cac0a518494d0bc12d288722a50670ed95
-vendor/lib64/soundfx/libqcbassboost.so|353a8b27d979025605aa5ff947d784af4fa857ee
-vendor/lib64/soundfx/libqcvirt.so|2edef3ddea74a51666354d8c45fbc1634f92cfbe
+# Audio libraries - from ddv_sprout 11-RKQ1.210607.001-00WW_3_690-release-keys
+vendor/lib/libacdb-fts.so|63e2c39f16e828b2eeb9ecbbae5071f54511b52a
+vendor/lib/libacdbloader.so|8f753e0e8616654ff2ad8980f2f3204bab83a96f
+vendor/lib/libacdbrtac.so|5011f9aa41add219e8f01df7722d64fe6a24112a
+vendor/lib/libadiertac.so|48557671b8ccfc3e805e72f22def5df7cc76d7f0
+vendor/lib/libadm.so|59f8574635b5b07577d106293a48621008eafd7c
+vendor/lib/libaudcal.so|9b90304072c01aeb96af52ee24ffaa75d7bd15bb
+vendor/lib/libqtigef.so|977cbb704f6b2bae7f4e2f17b8c15146a6cacffb
+vendor/lib/soundfx/libasphere.so|90940fca6f4b84794046513c6c6868eca9470066
+vendor/lib/soundfx/libqcbassboost.so|c1d3b6daf0c210df3470509d1b0855a0bf661de2
+vendor/lib/soundfx/libqcreverb.so|27e1a5af0ab447a9f010b03f0e424049f0a68adc
+vendor/lib/soundfx/libqcvirt.so|ec02ee7b73ecefbb0f5dc769e2533bbd5e0cd768
+vendor/lib64/soundfx/libqcbassboost.so|55948517d0606d937b0305d15ef0c32e691248a8
+vendor/lib64/soundfx/libqcvirt.so|0a52ba5a31cf57847a6c8d2abd6da851399b3981
 
 # Bluetooth - from ddv_sprout 11-RKQ1.210607.001-00WW_3_690-release-keys
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|07d96d0d3c4a500b14ea3c97e02b9eb5ee2bbc4d
