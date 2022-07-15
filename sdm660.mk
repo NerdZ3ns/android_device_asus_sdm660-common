@@ -83,6 +83,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.btconfigstore@2.0.vendor
 
 # Camera
+# Camera
+PRODUCT_PACKAGES += \
+    GCamGOPrebuilt-V2
+
 PRODUCT_PACKAGES += \
     android.hardware.camera.common@1.0 \
     android.hardware.camera.device@3.4 \
