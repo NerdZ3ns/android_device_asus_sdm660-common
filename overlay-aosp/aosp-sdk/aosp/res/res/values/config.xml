@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2015-2016 The CyanogenMod Project
-                   2017-2020 The LineageOS Project
+     Copyright (C) 2022 The ProtonAOSP Project
+
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -38,7 +38,7 @@
          // via the alpha channel.
          // Note: if a device notification light supports LIGHTS_RGB_NOTIFICATION_LED
          // then HAL support is not necessary for brightness control.  In this case,
-         // brightness support will be provided by lineage-sdk through the scaling of
+         // brightness support will be provided by aosp-sdk through the scaling of
          // RGB color values.
          LIGHTS_ADJUSTABLE_NOTIFICATION_LED_BRIGHTNESS = 32
          // Device has a battery light.
@@ -47,7 +47,7 @@
          // the alpha channel.
          // Note: if a device battery light supports LIGHTS_RGB_BATTERY_LED then HAL
          // support is not necessary for brightness control.  In this case,
-         // brightness support will be provided by lineage-sdk through the scaling of
+         // brightness support will be provided by aosp-sdk through the scaling of
          // RGB color values.
          LIGHTS_ADJUSTABLE_BATTERY_LED_BRIGHTNESS = 128
          For example, a device with notification and battery lights that supports

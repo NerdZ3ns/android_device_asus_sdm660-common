@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The LineageOS Project
+# Copyright (C) 2022 The ProtonAOSP Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
