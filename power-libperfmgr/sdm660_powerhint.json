@@ -34,6 +34,8 @@
       "Name": "CPUBigClusterMaxFreq",
       "Path": "/sys/devices/system/cpu/cpu4/cpufreq/scaling_max_freq",
       "Values": [
+        "2208000",
+        "2150400",
         "1958400",
         "1747200",
         "1401600",
@@ -46,6 +48,8 @@
       "Name": "CPUBigClusterMinFreq",
       "Path": "/sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq",
       "Values": [
+        "2208000",
+        "2150400",
         "1958400",
         "1747200",
         "1401600",
@@ -58,7 +62,8 @@
       "Name": "GPUMaxFreq",
       "Path": "/sys/class/kgsl/kgsl-3d0/devfreq/max_freq",
       "Values": [
-        "585000000",
+        "647000000",
+        "588000000",
         "465000000",
         "370000000",
         "266000000",
@@ -71,11 +76,13 @@
       "Name": "GPUMinFreq",
       "Path": "/sys/class/kgsl/kgsl-3d0/devfreq/min_freq",
       "Values": [
-        "585000000",
+        "647000000",
+        "588000000",
         "465000000",
         "370000000",
         "266000000",
-        "160000000"
+        "160000000",
+        "0"
       ],
       "ResetOnInit": true
     },
@@ -238,13 +245,13 @@
       "PowerHint": "LAUNCH",
       "Node": "CPUBigClusterMaxFreq",
       "Duration": 5000,
-      "Value": "1958400"
+      "Value": "2208000"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUBigClusterMinFreq",
       "Duration": 5000,
-      "Value": "1958400"
+      "Value": "2208000"
     },
     {
       "PowerHint": "LAUNCH",
@@ -322,13 +329,13 @@
       "PowerHint": "EXPENSIVE_RENDERING",
       "Node": "GPUMinFreq",
       "Duration": 0,
-      "Value": "585000000"
+      "Value": "647000000"
     },
     {
       "PowerHint": "EXPENSIVE_RENDERING",
       "Node": "GPUMaxFreq",
       "Duration": 0,
-      "Value": "585000000"
+      "Value": "647000000"
     },
     {
       "PowerHint": "Flipendo",
